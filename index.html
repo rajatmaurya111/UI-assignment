@@ -3,10 +3,274 @@
 <head>
     <meta charset="UTF-8">
     <title>UI</title>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-   
+    <div id="wrapper">
+        <nav>
+            <!-- navbar -->
+            <ul>
+                <li class="logo">
+                    <a href="#">
+                        <img src="images/Path 9408@2x.png" />
+                        <img src="images/JTGPOD@2x.png" alt="logo">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#" class="links link-clicked">Home</a> 
+                </li>
+                <li><a href="#" class="links">About</a></li>
+                <li><a href="#" class="links">Blog</a></li>
+                <li><a href="#" class="links">Pages</a></li>
+                <li><a href="#" class="links">Contact</a></li>
+                <li>
+                    <Button class="button">
+                        <a href="#">Subscribe</a>
+                    </Button>
+                </li>
+            </ul>
+        </nav>
+    
+        
+        <div class="blogs-div">
+            <!-- Latest Blogs -->
+            <div class="blogs-header">
+                <!-- Header of Latest Blogs section -->
+                <div class="title">
+                    <h2>Latest Blogs</h2>
+                </div>
+                <div class="view-all-div">
+                    <button class="button">View All</button>
+                </div>
+    
+            </div>
+            <div class="blogs">
+                <!-- This div contains the blogs -->
+    
+                <div class="single-blog">
+                    <!-- This contain a single blog -->
+                    <img src="images/2123.png" alt="dog">
+                    <div class="blog-content">
+                        <h3>Visiting my best friend's city for first time</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit amet amet. Exercitationem jsdlkf lskdj jsdlkf lskdj jsdlkf lskdj</p>
+                        <button class="button">View</button>
+                    </div>
+    
+                    <div class="blog-comment">
+                        <div>
+                            <p># Season 1</p>
+                            <p># Posted on Sep 3, 2020</p>
+                            <p># audio/goodbyes/life</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="single-blog">
+                    <!-- This contain a single blog -->
+                    <img src="images/hello-revival-YH_Ne4R9ZAc-unsplash.png">
+                    <div class="blog-content">
+                        <h3>An interesting read I definitely recommended</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit amet amet. Exercitationem jsdlkf lskdj jsdlkf lskdj jsdlkf lskdj</p>
+                        <button class="button">View</button>
+                    </div>
+                    
+                    <div class="blog-comment">
+                        <div>
+                            <p># Season 1</p>
+                            <p># Posted on July 29, 2020</p>
+                            <p># goodbyes/life</p>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="single-blog">
+                    <!-- This contain a single blog -->
+                    <img src="images/alexander-tsang-_frvdyMH6S0-unsplash.png">
+                    <div class="blog-content">
+                        <h3>What if all my adventures go back home?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit amet amet. Exercitationem jsdlkf lskdj jsdlkf lskdj jsdlkf lskdj</p>
+                        <button class="button">View</button>
+                    </div>
+                    
+                    <div class="blog-comment">
+                        <div>
+                            <p># Season 1</p>
+                            <p># Posted on Sep 11, 2020</p>
+                            <p># audio/goodbyes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="latest-blog-footer">
+                <span>|</span>
+                <button class="outline-button latest-blog-view-more">View More episode</button>
+                <span>|</span>
+            </div>
+        </div>
+
+        <div class="blog-posts">
+                <!-- This div contains slider for blog posts -->
+                <div class="blog-posts-header">
+                    <h3>Blog Posts</h3>
+                </div>
+    
+                <div class="blog-slider">
+                   
+                    <!-- This div contain blog slider -->
+                    <div class="blog-slider-card">
+                        <!-- This is is a card -->
+                        <div class="blog-card-header">
+                            <div class="blog-author">
+                                <span class="blog-author-name">By Mehedi Hasan</span>
+                                <span class="blog-date">Sep 11, 2020</span>
+                            </div>
+                            <div class="radio-name">
+                                Cantonese Radio
+                            </div>
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-heading">Global News Podcast Thai soldier kills many people a shooting rampage</h3>
+                            <p class="blog-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere, dolore iusto excepturi, nostrum nobis odit error accusamus minus natus voluptatum!</p>
+                        </div>
+                        <button class="outline-button blog-card-button">Read More</button>
+                    </div>
+    
+                    <div class="blog-slider-card">
+                        <!-- This is is a card -->
+                        <div class="blog-card-header">
+                            <div class="blog-author">
+                                <span class="blog-author-name">Ay Mehedi Hasan</span>
+                                <span class="blog-date">Sep 11, 2020</span>
+                            </div>
+                            <div class="radio-name">
+                                Cantonese Radio
+                            </div>
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-heading">News hour - World Health Organization says a new coronavirus cases</h3>
+                            <p class="blog-content">Lorem ipsum lslds dkdd kdsd sdskdsf sd ds ds d f sdf s df sdf dolor sit amet consectetur adipisicing elit. Nemo facere, dolore iusto excepturi, nostrum nobis odit error accusamus minus natus voluptatum!</p>
+                        </div>
+                        <button class="outline-button blog-card-button">Read More</button>
+                    </div>
+    
+                    <div class="blog-slider-card">
+                        <!-- This is is a card -->
+                        <div class="blog-card-header">
+                            <div class="blog-author">
+                                <span class="blog-author-name">Last By Mehedi Hasan</span>
+                                <span class="blog-date">Sep 11, 2020</span>
+                            </div>
+                            <div class="radio-name">
+                                Cantonese Radio
+                            </div>
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-heading">Over to You - Programme face the axe substantial financial cutbacks</h3>
+                            <p class="blog-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere, dolore iusto excepturi, nostrum nobis odit error accusamus minus natus voluptatum!</p>
+                        </div>
+                        <button class="outline-button blog-card-button">Read More</button>
+                    </div>
+    
+                    <div class="blog-slider-card">
+                        <!-- This is is a card -->
+                        <div class="blog-card-header">
+                            <div class="blog-author">
+                                <span class="blog-author-name">Last By Mehedi Hasan</span>
+                                <span class="blog-date">Sep 11, 2020</span>
+                            </div>
+                            <div class="radio-name">
+                                Cantonese Radio
+                            </div>
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-heading">Global News Podcast Thai soldier kills many people a shooting rampage</h3>
+                            <p class="blog-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere, dolore iusto excepturi, nostrum nobis odit error accusamus minus natus voluptatum!</p>
+                        </div>
+                        <button class="outline-button blog-card-button">Read More</button>
+                    </div>
+                </div>
+                <div class="slider-navigation-button">
+                    <div class="pp2 navigation-btn">
+                        <img src="images/arrow-left.png" alt="previous">
+                    </div>
+                    <div class="nn2 navigation-btn">
+                        <img src="images/arrow-right.png" alt="next">
+                    </div>
+                </div>
+            </div>
+            
+            
+
+
+
+
+
+          <div class="about-section">
+            <!-- This section contain about, pages, recent blogs and partners -->
+            <div class="about-jtgpod">
+                <!-- This div contain info about jtgpod -->
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/Path 9408@2x.png" alt="mic"/>
+                        <img src="images/JTGPOD@2x.png" alt="logo">
+                    </a>
+                </div>
+                <div class="description">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ducimus debitis voluptas assumenda, est iusto minima provident libero.  
+                    </p>
+                </div>
+                <div>
+                    <h4>Socials</h4>
+                    <a href="#" class="social-link"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="#" class="social-link"><img src="images/linkedin.png" alt="linkedin"></a>
+                    <a href="#" class="social-link"><img src="images/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+    
+            <div class="about-pages">
+                <!-- This div contains pages links within the website -->
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="#" class="page-link">About</a></li>
+                    <li><a href="#" class="page-link">About</a></li>
+                    <li><a href="#" class="page-link">Episode</a></li>
+                    <li><a href="#" class="page-link">Blog</a></li>
+                    <li><a href="#" class="page-link">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="about-recent-blogs">
+                <h4>Recent Blogs</h4>
+                <ul>
+                    <li><a href="#" class="blog-link">Blog 1</a></li>
+                    <li><a href="#" class="blog-link">Blog 2</a></li>
+                    <li><a href="#" class="blog-link">Blog 3</a></li>
+                    <li><a href="#" class="blog-link">Blog 4</a></li>
+                </ul>
+            </div>
+            
+            <div class="about-partners">
+                <!-- This div contains links to the partners -->
+                <h4>Partners</h4>
+                <div>
+                    <a href="#"><img src="images/google_podcast@2x.png" alt="google podcast"></a>
+                    <a href="#"><img src="images/apple_podcast@2x.png" alt="apple_podcast"></a>
+                    <a href="#"><img src="images/spotify@2x.png" alt="spotify"></a>
+                </div>
+    
+            </div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="scripts/script.js"></script>
 
    </body>
