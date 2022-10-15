@@ -8,3 +8,20 @@ $(document).ready(function(){
         nextArrow: $(".nn2")
     });
 });
+
+
+let navLinks = document.querySelectorAll(".links")
+let currentActiveLink = 0
+
+navLinks.forEach((navLink, idx)=>{
+    navLink.addEventListener("click", ()=>{
+        // adding event listener to navLink
+        navLinks[currentActiveLink].classList.remove("link-clicked")
+        navLinks[idx].classList.add("link-clicked")
+        currentActiveLink = idx
+    })
+})
+
+
+
+
