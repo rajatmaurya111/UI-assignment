@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $('.blog-slider').slick({
         slidesToShow: 3,
@@ -21,7 +20,3 @@ navLinks.forEach((navLink, idx) => {
         currentActiveLink = idx
     })
 })
-
-
-
-
